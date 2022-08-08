@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>RJ Tecnologia</title>
+  <meta content="A RJ Tecnologia trabalha com grandes empresas a startups para criar produtos de software inovadores"
+    name="description">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo-rj-02.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Khand:wght@300;500&&Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- CSS Files -->
+  <link href="assets/css/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/css/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/css/toastr/toastr.min.css" rel="stylesheet">
+  <link href="assets/css/animate.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/style-particles.css" rel="stylesheet">
+  <link href="assets/css/ind-css.css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/overwrite-styles.css">
+<!-- Template Main CSS File Plus-->
+  <link href="assets/css/bootstrap.css" rel="stylesheet">
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/style_2.css" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Barlow:400,500,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/screen.css">
+  <!-- Footer CSS File -->
+  <link rel='stylesheet'  href='assets/css/js_composer_front_custom.css' type='text/css' media='all' />
+  <link rel='stylesheet'  href='assets/css/main.min.css' type='text/css' media='all' />
+  <link rel='stylesheet'  href='assets/css/custom.css' type='text/css' media='all' />
+  <link rel='stylesheet'  href='assets/css/cust-style.css' type='text/css' media='all' />
+  <!-- Section Contact CSS File -->
+  <link rel="stylesheet" href="assets/css/global.min.css">
+  <style>
+    img.img-fluid-contact {
+      height:60px; 
+      width:60px; 
+      margin-top:36px;}
+    div.display-card.gallery-block:hover {
+      background-color:#d0ede4 !important; 
+      transition: background-color .3s ease;}
+      @media(max-width:991px) {
+        .jimcol-01 {
+          width: 50%;
+        }
+      }
+  </style>
+</head>
+
+<body>
+  <!-- ======= Header ======= -->
+  <header id="main-header">
+    <div class="main-header">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12">
+            <nav class="navbar navbar-expand-lg navbar-light p-0 ">
+              <a href="#" class="navbar-brand">
+                <picture>
+                  <source media="(max-width: 990px)" srcset="assets/img/logo-nav-rj-02.png">
+                  <img src="assets/img/logo-nav-rj-02.png" class="img-fluid logo" style="width: 160px;" />
+                </picture>
+              </a>
+              <!-- ===== navbar Start ===== -->
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="menu-main-menu-container">
+                  <div class="menu-btn" >
+                    <i class="fa fa-bars fa-2x"  style="margin-top: -5%;" onclick="menuShow()"></i>
+                  </div>
+                  <ul id="top-menu" class="navbar-nav ml-auto">
+                    <li class="menu-item"><a href="#hero">Home</a></li>
+                    <li class="menu-item"><a href="#about">Sobre nós</a></li>
+                    <li class="menu-item"><a href="#services">Serviços</a></li>
+                    <li class="menu-item"><a href="#why">Por que nos escolher?</a></li>
+                    <li class="menu-item"><a href="#contact">Fale Conosco</a></li>
+                  </ul>
+                </div>
+              </div>
+              <!-- ===== navbar End ===== -->
+              <div class="mobile-more-menu">
+                <a href="javascript:void(0);" class="more-toggle" id="dropdownMenuButton" data-toggle="more-toggle"
+                  aria-haspopup="true" aria-expanded="false">
+                </a>
+                <div class="more-menu" aria-labelledby="dropdownMenuButton">
+                  <div class="navbar-right position-relative">
+                    <ul class="d-flex align-items-center justify-content-end list-inline m-0">
+                      <!-- ===== manager Start ===== -->
+                      <li>
+                        <a href="#" class="iq-user-dropdown search-toggle d-flex align-items-center">
+                          <img src="images/user/user-4.png" class="img-fluid user-m rounded-circle" alt="" />
+                        </a>
+                        <div class="iq-sub-dropdown iq-user-dropdown">
+                          <div class="iq-card shadow-none m-0">
+                            <div class="iq-card-body p-0 pl-3 pr-3">
+                              <a href="#" class="iq-sub-card setting-dropdown">
+                                <div class="media align-items-center">
+                                  <div class="right-icon">
+                                    <i class="fa fa-user text-primary"></i>
+                                  </div>
+                                  <div class="media-body ml-3">
+                                    <h6 class="mb-0">Gerenciar Perfil</h6>
+                                  </div>
+                                </div>
+                              </a>
+                              <a href="#" class="iq-sub-card setting-dropdown">
+                                <div class="media align-items-center">
+                                  <div class="right-icon">
+                                    <i class="fa fa-cog text-primary"></i>
+                                  </div>
+                                  <div class="media-body ml-3">
+                                    <h6 class="mb-0">Configurações</h6>
+                                  </div>
+                                </div>
+                              </a>
+                              <a href="#" class="iq-sub-card setting-dropdown">
+                                <div class="media align-items-center">
+                                  <div class="right-icon">
+                                    <i class="fa fa-inr text-primary"></i>
+                                  </div>
+                                  <div class="media-body ml-3">
+                                    <h6 class="mb-0"> Planos</h6>
+                                  </div>
+                                </div>
+                              </a>
+                              <a href="#" class="iq-sub-card setting-dropdown">
+                                <div class="media align-items-center">
+                                  <div class="right-icon">
+                                    <i class="fa fa-sign-out text-primary"></i>
+                                  </div>
+                                  <div class="media-body ml-3">
+                                    <h6 class="mb-0">Logout</h6>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <!-- ===== manager End ===== -->
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="navbar-right menu-right " >
+                <ul class="info-share-header">
+                  <li >
+                    <a href="https://www.linkedin.com/company/rj-tecnologia/" target="_blank">
+                      <i>
+                        <fa class="fa fa-linkedin"></fa>
+                      </i>
+                    </a>
+                  </li>
+                  <li >
+                    <a href="https://bit.ly/3OUuVKz" target="_blank">
+                      <i>
+                      <fa class="fa fa-whatsapp"></fa>
+                    </a>
+                  </li>
+                  <li >
+                    <a href="#">
+                      <i>
+                      <fa class="fa fa-instagram"></fa>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+            <div class="nav-overlay"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Back to top button -->
+  <button
+  type="button"
+  class="btn btn-default btn-floating btn-lg"
+  id="btn-back-to-top"
+  >
+  <i class="fa fa-arrow-up"></i>
+  </button>
+  <!-- ======= Header ======= -->
+
+  <!-- ======= Hero Section Start ======= -->
+  <section class="home-hero-section">
+    <div class="container-fluid" id="hero">
+      <!-- Slide 1 -->
+      <div class="carousel-container">
+        <div class="container" data-anime='up'>
+          <h2 id="enterprise" class="bannerNewTitle">
+            Inovação | Software | Simplicidade
+          </h2>
+          <p class="bannerNewDescription">A <strong class="color-cyan">RJ Tecnologia</strong> dispõe das mais inovadoras
+            soluções tecnológicas. Trabalhamos de forma
+            personalizada levando em consideração as necessidades de nossos clientes trazendo excelência e qualidade
+            na prestação dos nossos serviços. <br> Oferecemos
+            <span class="color-cyan">Soluções Digitais </span>
+            para<span class="color-cyan"> Desafios Reais. </span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="second-particles" class="particles second-particles">
+      <canvas class="particles-js-canvas-el" style="width: 100%; height: 100%;" width="915" height="563"></canvas>
+    </div>
+    <div id="particles-js" class="particles">
+      <canvas class="particles-js-canvas-el" style="width: 100%; height: 100%;" width="915" height="563"></canvas>
+    </div>
+
+  </section>
+  <!-- ======= Hero Section End ======= -->
+
+  <main id="main">
+    <div className="containerWrapper">
+
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about" style="background:#fff; ">
+        <div class="container-fluid" >
+
+          <div class="row justify-content-center" >
+            <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative"
+              data-anime='left'>
+            </div>
+
+            <div style="background:#fff;"
+              class="col-xl-5 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
+              <h3 id="center" data-anime='left'>Sobre a empresa</h3>
+              <div id="container-center" data-anime='down'>
+                <p class="align-center bannerNewDescription">Sabemos como maximizar o valor do negócio e garantir a sustentabilidade com soluções técnicas personalizadas. Atuamos na concepção e
+                  desenvolvimento de plataformas e sistemas, através da indústria 4.0 e Automação industrial, em busca
+                  da excelência na prestação de serviços, a <strong class="color-cyan">RJ Tecnologia</strong> dispõe
+                  das mais inovadoras soluções tecnológicas de forma personalizada levando sempre em consideração as
+                  necessidades de seus clientes. </p>
+              </div>
+
+              <div class="icon-box" data-anime='left'>
+                <div class="icon"><i class="bx bx-award"></i></div>
+                <h4 class="title "><a href="javascript:void(0);">Elegância</a></h4>
+                <p class="description bannerNewDescription align-center">Design, agilidade e tecnologia nos permitem apoiar a inovação, a transformação
+                  digital de empresas na construção e sustentação de seus produtos e serviços digitais.</p>
+              </div>
+
+              <div class="icon-box" data-anime="up">
+                <div class="icon"><i class="bx bx-brush"></i></div>
+                <h4 class="title"><a href="javascript:void(0);">Projeção</a></h4>
+                <p class="description bannerNewDescription align-center">Desenvolvemos soluções digitais. Simplificamos a tecnologia para que você possa
+                  se dedicar às demais áreas do seu negócio.</p>
+              </div>
+
+              <div class="icon-box" data-anime='left'>
+                <div class="icon"><i class="bx bx-atom"></i></div>
+                <h4 class="title"><a href="javascript:void(0);">Melhorias</a></h4>
+                <p class="description bannerNewDescription align-center">A tecnologia avança muito rápido. Estamos sempre pensando em uma forma de
+                  melhorar seus processos e sua produtividade.</p>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <!-- ======= Services Section ======= -->
+      <section id="services" class="services">
+        <div class="service-box" style="background:#fff;">
+          <div class="section-title" data-anime="scale">
+
+              <div class="container">
+                <h2 class="bannerNewTitle" >
+                  <a href="#services">Nossos Serviços</a></h2><br>
+                <p class="bannerNewDescription" style="text-align-last: center; ">Seu parceiro
+                    Técnico Completo para expandir o alcance do seu negócio e aumentar suas vendas.
+                </p>
+              </div>
+
+          </div>
+          <div class="wrapper wrapper-content animated fadeInRight   fcc-item text-center">
+            <div class="row">
+              <div class="col-ms-1"></div>
+              <div class="col-md-3 display-card gallery-block">
+                  <div class="ibox">
+                      <div class="ibox-content product-box">
+
+                        <div class="service-imgbox service-imgbox-one"></div>
+                        <br>
+                        <div class="imagebox-one"> <img width="25" height="231" class=" lazyloading"
+                            src="assets/img/services/concepcao.png" data-src="assets/img/services/concepcao.png" alt="">
+                        </div>
+                          <div class="product-desc">
+                            <br>
+                            <br>
+                              <a href="javascript:void(0);" class="product-name"> Concepção</a>
+
+                              <div class=" m-t-xs">
+                                <br>
+                                Não apenas projetamos e entregamos produtos digitais de alta qualidade, estáveis, escaláveis e funcionais, mas também compartilhamos o conhecimento valioso e abrangente de um time de talentos.
+                              </div>
+                              <div class="m-t text-righ">
+                                <br>
+                                  <a href="#" class="btn btn-xs btn-outline btn-primary">Falar <i class="fa fa-long-arrow-right"></i> </a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-1"></div>
+              <div class="col-md-3 display-card gallery-block">
+                <div class="ibox">
+                  <div class="ibox-content product-box">
+
+                    <div class="service-imgbox service-imgbox-one"></div>
+                    <br>
+                    <div class="imagebox-three"> <img width="227" height="250" class=" lazyloading"
+                      src="assets/img/services/industria40.png" data-src="assets/img/services/industria40.png" alt="">
+                    </div>
+                    <div class="product-desc">
+                      <br>
+                      <a href="javascript:void(0);" class="product-name"> Indústria 4.0</a>
+
+                      <div class=" m-t-xs">
+                        <br>
+                        Soluções tecnológicas para estruturação de fábricas inteligentes, com sistemas autônomos que
+                        monitoram processos físicos e tomam decisões descentralizadas.
+                      </div>
+                      <div class="m-t text-righ">
+                        <br>
+                        <br>
+                          <a href="#" class="btn btn-xs btn-outline btn-primary">Falar <i class="fa fa-long-arrow-right"></i> </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-1"></div>
+              <div class="col-md-3 display-card gallery-block">
+                <div class="ibox">
+                  <div class="ibox-content product-box">
+
+                    <div class="service-imgbox service-imgbox-one"></div>
+                    <br>
+                    <div class="imagebox-one"> <img width="231" height="240" class=" lazyloading"
+                      src="assets/img/services/software.png" data-src="assets/img/services/software.png" alt=""> 
+                    </div>
+                    <div class="product-desc">
+                      <a href="javascript:void(0);" class="product-name"> Desenvolvimento de <br> Software</a>
+
+                      <div class=" m-t-xs">
+                        <br>
+                        Possuímos ampla experiência em engenharia de software e entregamos produtos adequados as necessidades do cliente proporcionando lucratividade para sua empresa.
+                      </div>
+                      <div class="m-t text-righ">
+                        <br>
+                        <a href="#" class="btn btn-xs btn-outline btn-primary">Falar <i class="fa fa-long-arrow-right"></i> </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+            <div class="row"><br><br><br><br></div>
+            <div class="row">
+              <div class="col-ms-1"></div>
+              <div class="col-md-3 display-card gallery-block">
+                  <div class="ibox">
+                      <div class="ibox-content product-box">
+
+                        <div class="service-imgbox service-imgbox-one"></div>
+                        <br>
+                        <div class="imagebox-four"> <img width="250" height="172" class=" lazyloaded"
+                          src="assets/img/services/Iot.png" data-src="assets/img/services/Iot.png" alt=""> </div>
+                          <div class="product-desc">
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                              <a href="javascript:void(0);" class="product-name"> Internet das Coisas (IoT)</a>
+
+                              <div class=" m-t-xs">
+                                <br>
+                                <br>
+                                Oferecemos soluções de desenvolvimento de software IoT de alta qualidade, projetadas especificamente
+                                para atender às necessidades de sua empresa.
+                              </div>
+                              <div class="m-t text-righ">
+                                <br>
+                                <br>
+                                <a href="#" class="btn btn-xs btn-outline btn-primary">Falar <i class="fa fa-long-arrow-right"></i> </a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-1"></div>
+              <div class="col-md-3 display-card gallery-block">
+                <div class="ibox">
+                  <div class="ibox-content product-box">
+
+                    <div class="service-imgbox service-imgbox-one"></div>
+                    <br>
+                    <div class="imagebox-five"> <img width="194" height="172" class=" lazyloaded"
+                      src="assets/img/services/rpa.png" data-src="assets/img/services/rpa.png" alt=""> </div>
+                    <div class="product-desc">
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <a href="javascript:void(0);" class="product-name"> Automação Robótica de Processos
+                        (RPA)</a>
+
+                      <div class=" m-t-xs">
+                        <br>
+                        Ajudaremos você a identificar maneiras de automatizar seus processos de negócios e remover os
+                        problemas com nossos serviços de automação robótica de processos.
+                      </div>
+                      <div class="m-t text-righ">
+                        <br>
+                        <a href="#" class="btn btn-xs btn-outline btn-primary">Falar <i class="fa fa-long-arrow-right"></i> </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-1"></div>
+              <div class="col-md-3 display-card gallery-block">
+                <div class="ibox">
+                  <div class="ibox-content product-box">
+
+                    <div class="service-imgbox service-imgbox-one"></div>
+                    <br>
+                    <div class="imagebox-one"> <img width="280" height="250" class=" lazyloaded"
+                      src="assets/img/services/p&d.png" data-src="assets/img/services/p&d.png" alt="">
+                    </div>
+                    <div class="product-desc">
+                      <br>
+                      <a href="javascript:void(0);" class="product-name"> Projetos de P&D</a>
+
+                      <div class=" m-t-xs">
+                        <br>
+                        Especialista na execução de projetos de Pesquisa Desenvolvimento & Inovação. Esses projetos podem ser
+                        moldados de acordo com as necessidades, aspectos técnicos e
+                        econômicos do cliente.
+                      </div>
+                      <div class="m-t text-righ">
+                        <br>
+                          <a href="#" class="btn btn-xs btn-outline btn-primary">Falar <i class="fa fa-long-arrow-right"></i> </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        </div>
+        </div>
+      </section>
+
+      <!-- ======= Why Section ======= -->
+      <section id="why" class="services">
+        <div class="container-fluid">
+
+          <div class="section-title" data-anime="scale">
+            <h2 class="bannerNewTitle">Por que nos escolher ?</h2>
+            <!-- <h3>Confira nossos <span>Serviços</span></h3> -->
+            <p class="bannerNewDescription">A RJ Tecnologia é uma empresa especializada em serviços e soluções de alta tecnologia focada em
+              Desenvolvimeno de Software. A companhia tem se destacado no desenvolvimento de soluções críticas e
+              tecnologias emergentes, melhorias de serviços eletrônicos no intuito de agregar valor e melhorias para
+              nossos clientes.</p>
+          </div>
+
+          <div class="row justify-content-center">
+            <div class="col-xl-10">
+              <div class="row">
+                <div class="col-lg-6 col-md-6 icon-box" data-anime='up'>
+                  <div class="icon"><i class="bi bi-cash-coin"></i></div>
+                  <h4 class="title"><a href="">Custo benefício</a></h4>
+                  <p class="description align-center bannerNewDescription">Por combinar muitas pessoas para identificar a melhor estratégia, a 
+                      RJ Tecnologia é capaz de entregar ao usuário final uma ferramenta mais
+                    inovadora e inteligente. Dessa forma, há um maior retorno sobre o investimento. </p>
+                </div>
+                <div class="col-lg-6 col-md-6 icon-box" data-anime='up'>
+                  <div class="icon"><i class="bi bi-clipboard-data"></i></div>
+                  <h4 class="title"><a href="">Aumento de Produtividade</a></h4>
+                  <p class="description align-center bannerNewDescription">A qualidade do software desenvolvido pela RJ
+                      Tecnologia impacta diretamente em sua empresa tornando-a mais produtiva.</p>
+                </div>
+                <div class="col-lg-6 col-md-6 icon-box" data-anime='up'>
+                  <div class="icon"><i class="bi bi-currency-dollar"></i></div>
+                  <h4 class="title"><a href="">Economia financeira</a></h4>
+                  <p class="description align-center bannerNewDescription">O custo para ter profissionais qualificados é alto e nem todas as empresas
+                    conseguem arcá-lo. Nesse sentido, a RJ Tecnologia gera uma
+                    economia financeira, não só com colaboradores especializados, mas também com a sua infraestrutura de
+                    TI, principalmente no tocante ao software, que engloba aplicativos, códigos, programas e scripts.</p>
+                </div>
+                <div class="col-lg-6 col-md-6 icon-box" data-anime='up'>
+                  <div class="icon"><i class="bi bi-tools"></i></div>
+                  <h4 class="title"><a href="">Suporte qualificado</a></h4>
+                  <p class="description align-center bannerNewDescription">A RJ Tecnologia tem um time de
+                    profissionais responsáveis por dar apoio aos seus clientes durante todo o processo de criação e
+                    utilização do sistema. Isso diminui o atrito causado pela implementação da ferramenta, aumenta o seu
+                    uso e amplia o retorno sobre o investimento.</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact section-bg">
+        <div class="container-fluid">
+
+          <div class="section-title" data-anime="scale">
+            <h2 class="bannerNewTitle">Entre em contato conosco</h2>
+            <p>A RJ Consutoria e Tecnologia está de portas abertas para atender você! Entre em contato conosco e informe
+              quais são as suas necessidades.Teremos imenso prazer em ajudar.</p>
+          </div>
+
+          <div>
+            <div class="w-100 fcc-block   bg-gray ">
+              <div class="container fcc-block-container">
+                <div class="c-wrapper row jsFlexibleContainer">
+                  <div class=" col-lg-4 col-12 col-md-6   fcc-item text-center jimcol-01">
+                    <div class="display-card gallery-block">
+                      <a href="https://bit.ly/3oVeL9c" class="click-area  " target="_blank" data-content-weight=" ">
+                        <img class="img-fluid-contact mb-3" src="assets/img/contact/help-icon.svg" data-src="assets/img/help-icon.svg" alt="Entrar no RJ Tecnologia" title="Entrar no RJ Tecnologia">
+                        <div class="p-colview">
+                          <p><span class="h5">
+                            <font style="vertical-align: inherit;">
+                              <font style="vertical-align: inherit;">Sou cliente e preciso de suporte.</font>
+                            </font>
+                          </span></p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class=" col-lg-4 col-12 col-md-6   fcc-item text-center jimcol-01">
+                    <div class="display-card gallery-block">
+                        <a href="https://bit.ly/3OYUc6l" class="click-area  " target="_blank" data-content-weight=" ">
+                          <img class="img-fluid-contact mb-3" src="assets/img/contact/demo-icon.svg" data-src="assets/img/demo-icon.svg" alt="Conversar Agora" title="Conversar Agora">
+                          <div class="p-colview">
+                            <p><span class="h5">
+                              <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Gostaria de agendar uma demonstração do produto.</font>
+                              </font>
+                            </span></p>
+                          </div>
+                        </a>
+                    </div>
+                  </div>
+                  <div class=" col-lg-4 col-12 col-md-6   fcc-item text-center jimcol-01">
+                    <div class="display-card gallery-block">
+                      <a href="javascript:void(0);" class="click-area  " target="_self" data-content-weight=" ">
+                        <img class="img-fluid-contact mb-3" src="assets/img/contact/quote-icon.svg" data-src="assets/img/quote-icon.svg" alt="Conversar Agora" title="Conversar Agora">
+                        <div class="p-colview">
+                          <p><span class="h5">
+                            <font style="vertical-align: inherit;">
+                              <font style="vertical-align: inherit;">Gostaria de solicitar informações sobre preços.</font>
+                            </font>
+                          </span></p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class=" col-lg-4 col-12 col-md-6   fcc-item text-center jimcol-01">
+                    <div class="display-card gallery-block">
+                        <a href="javascript:void(0);" class="click-area  " target="_self" data-content-weight=" ">
+                          <img class="img-fluid-contact mb-3" src="assets/img/contact/referral-icon.svg" data-src="assets/img/referral-icon.svg" alt="Formulário de referência" title="Formulário de referência">
+                          <div class="p-colview">
+                            <p><span class="h5">
+                              <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Sou sócio e gostaria de indicar um lead.</font>
+                              </font></span>
+                            </p>
+                          </div>
+                        </a>
+                    </div>
+                  </div>
+                  <div class=" col-lg-4 col-12 col-md-6   fcc-item text-center jimcol-01">
+                    <div class="display-card gallery-block">
+                        <a href="javascript:void(0);" class="click-area  " target="_self" data-content-weight=" ">
+                          <img class="img-fluid-contact mb-3" src="assets/img/contact/partner-icon.svg" data-src="assets/img/partner-icon.svg" alt="Ícone do parceiro" title="Ícone do parceiro">
+                          <div class="p-colview">
+                            <p><span class="h5">
+                              <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Tenho interesse em ser sócio.</font>
+                              </font></span>
+                            </p>
+                          </div>
+                        </a>
+                    </div>
+                  </div>
+                  <div class=" col-lg-4 col-12 col-md-6   fcc-item text-center jimcol-01">
+                    <div class="display-card gallery-block">
+                      <a href="javascript:void(0);" class="click-area  " target="_self" data-content-weight=" ">
+                        <img class="img-fluid-contact mb-3" src="assets/img/contact/feedback-icon.svg" data-src="assets/img/feedback-icon.svg" alt="Conversar Agora" title="Conversar Agora">
+                        <div class="p-colview">
+                          <p><span class="h5">
+                            <font style="vertical-align: inherit;">
+                              <font style="vertical-align: inherit;">Tenho feedback do site.</font>
+                            </font></span>
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <!-- ======= Map Start ======= -->
+      <div itemprop="text">
+        <div class="mapouter">
+          <a href="https://goo.gl/maps/tCGa4g5bBEoFDKfe8" target="_blank" class="gmap_canvas"></a>
+        </div>
+      </div>
+      <!-- ======= Map End ======= -->
+    </div>
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+
+  <footer id="footer" class="footer solid-bg">
+    <div class="wf-wrap">
+      <div class="wf-container-footer">
+        <div class="wf-container">
+          <section id="text-2" class="widget widget_text wf-cell wf-1-1">
+            <div class="textwidget">
+              <div class="templatera_shortcode">
+                <style type="text/css" data-type="vc_custom-css">
+                .unbold-1{
+                  font-weight: 100 !important;
+                  display: block;
+                }
+                .this-txt-white h3{
+                  color: #fff !important;
+                }
+                .this-svcBox .wpb_text_column{
+                  padding: 20px;
+                  color: #fff;
+                }
+                .this-svcBox .vc_single_image-wrapper{
+                  padding: 20px;
+                }
+
+
+                .this-last-box  .vc_column-inner {
+                  border-right: 0 !important;
+                }
+                #this-row-svcsBlock1 .this-svcBox .vc_column-inner{
+                  padding: 0 0 20px 0 !important;
+                  background-color: rgb(0,82,155) !important;
+                }
+
+                .svcBlock-hdrBlock{
+                  background-color: rgb(17,33,43);
+                  padding: 10px;
+                  color: #fff !important;
+                  text-align: center;
+                  /*padding-bottom: 0 !important;*/
+                  margin-bottom: 0 !important;
+                }
+
+                #this-row-svcsBlock1 h3{
+                  font-size: 1.5em;
+                  font-weight: bold;
+                  color: #fff;
+                }
+                #this-row-iconSvcs-1 h3{
+                  font-weight: bold;
+                  text-align: center;
+                }
+                #this-row-iconSvcs-1 .wpb_single_image img{
+                /* max-width: 50% !important;*/
+                max-height: 100px;
+                width: auto;
+                }
+                #this-row-svcsBlock1 .wpb_single_image{
+                  margin-bottom: 0 !important;
+                }
+                #this-row-svcsBlock1 .wpb_single_image img{
+                /* max-width: 50% !important;*/
+                max-height: 100px;
+                width: auto;
+                }
+
+
+                #this-row-iconSvcs-1 .wpb_single_image.vc_align_center{
+                  min-height: 140px;
+                }
+                #this-row-iconSvcs-1 .wpb_single_image{
+                  margin-bottom: 0 !important;
+                }
+
+                .this-hasSubH{
+                  margin-bottom: 10px;
+                  text-transform: uppercase;
+                }
+                .this-h2SubH{
+                  font-size: 1.8em !important;
+                  text-transform: uppercase;
+                }
+
+                .this-halfhalf-txt{
+                  font-size: 1.5em;
+                }
+
+                .half-half-bg-1{
+                      height: 100%;
+                  background: linear-gradient(90deg, #00529B 50%, #fff 50%);
+                }
+                .half-half-bg-2{
+                      height: 100%;
+                      background: #00529B url(/wp-content/uploads/2020/02/bg-4a.jpg);
+                  background-size: cover;
+                  background-position: 50vw 50%;
+                  background-repeat: no-repeat;
+                }
+                .cta-section-1{
+                  background-color: #516978;
+                  padding-top: 30px;
+                  padding-bottom: 30px;
+                }
+                .cta-section-1 .wpb_content_element,
+                .cta-section-1 .vc_btn3-container{
+                  margin-bottom: 0;
+                }
+                #tab-section-1 .vc_tta-panels{
+                  border: 0;
+                  background-color: transparent;
+                }
+                #tab-section-1 .vc_tta-tab a{
+                  background-color: #00529B !important;
+                  color: #fff !important;
+                  border: 0 !important;
+                }
+                #tab-section-1 .vc_tta-tab.vc_active a{
+                  background-color: #0075ba !important;
+                  color: #fff !important;
+                  border: 0 !important;
+                }
+                #tab-section-1 .vc_tta-panel-body{
+                  color: #fff !important;
+                  /*padding-left: 150px;*/
+                  font-size: 1.5em;
+                }
+                #tab-section-1  .vc_pagination{
+                  padding-left: 150px;
+                }
+                #this-ourPartners-1 img{
+                  max-width: 137px;
+                  height: auto;
+                }
+
+
+
+                .this-txt-white,
+                .this-txt-white h2{
+                  color: #fff;
+                }
+
+                .this-img-adjust-1 img{
+                  max-width: 60% !important;
+                }
+
+
+
+
+
+                .this-normalWeightH2 h2{
+                  font-weight: 300;
+                }
+                .this-normalWeightH3 h3{
+                  font-weight: 300 !important;
+                }
+
+
+                .this-d-none{
+                  display: none !important;
+                }
+                .this-btn-override-1 .vc_btn3{
+                border: 1px solid #fff !important;
+                border-radius: 3px !important;
+                background-color: rgb(248 152 29 / 0%) !important;
+                }
+                .this-btn-override-1 .vc_btn3:hover{
+                border: 1px solid rgba(248,152,29,1) !important;
+                }
+                </style>
+                <style type="text/css" data-type="vc_shortcodes-custom-css">
+                  .vc_custom_1590002208133{
+                    margin-right: 0px !important;
+                    margin-left: 0px !important;
+                  }
+                  .vc_custom_1590003676334{
+                    margin-bottom: 10px !important;
+                  }
+                </style>
+                <div class="vc_row wpb_row vc_row-fluid univ-footer-tmpl vc_custom_1590002208133 vc_row-o-equal-height vc_row-flex">
+                  <!-- SOCIAL Start -->
+                  <div class="wpb_column vc_column_container vc_col-sm-1/5" id="footer-soc-icons">
+                    <div class="vc_column-inner">
+                      <div class="wpb_wrapper">
+                        <div class="wpb_text_column wpb_content_element  vc_custom_1590003676334">
+                          <div class="wpb_wrapper">
+                            <h3>Social</h3>
+                          </div>
+                        </div>
+                        <div class="vc_icon_element vc_icon_element-outer vc_icon_element-align-left">
+                          <div class="vc_icon_element-inner vc_icon_element-color-white vc_icon_element-size-md vc_icon_element-style- vc_icon_element-background-color-grey">
+                            <span class="vc_icon_element-icon fab fa fa-linkedin"></span>
+                            <a class="vc_icon_element-link" href="https://www.linkedin.com/company/rj-tecnologia/" title="" target=" _blank" rel="noopener"></a>
+                          </div>
+                        </div>
+                        <div class="vc_icon_element vc_icon_element-outer vc_icon_element-align-left">
+                          <div class="vc_icon_element-inner vc_icon_element-color-white vc_icon_element-size-md vc_icon_element-style- vc_icon_element-background-color-grey">
+                            <span class="vc_icon_element-icon fab fa fa-whatsapp"></span>
+                            <a class="vc_icon_element-link" href="https://bit.ly/3OUuVKz" title="" target=" _blank" rel="noopener"></a>
+                          </div>
+                        </div>
+                        <div class="vc_icon_element vc_icon_element-outer vc_icon_element-align-left">
+                          <div class="vc_icon_element-inner vc_icon_element-color-white vc_icon_element-size-md vc_icon_element-style- vc_icon_element-background-color-grey">
+                            <span class="vc_icon_element-icon fab fa fa-instagram"></span>
+                            <a class="vc_icon_element-link" href="javascript:void(0);" title=""  rel="noopener"></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- SOCIAL End -->
+                  <!-- LINKS Start -->
+                  <div class="wpb_column vc_column_container vc_col-sm-1/5">
+                    <div class="vc_column-inner">
+                      <div class="wpb_wrapper">
+                        <div class="wpb_text_column wpb_content_element ">
+                          <div class="wpb_wrapper">
+                            <h3>Links Rápidos</h3>
+                            <p>
+                              <a href="#hero">Home</a><br>
+                              <a href="#about">Sobre nós</a><br>
+                              <a href="#services">Serviços</a><br>
+                              <a href="#why">Por que nos escolher?</a><br>
+                              <a href="#contact">Fale conosco</a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- LINKS End -->
+                  <!-- ADDRESS Start -->
+                  <div class="wpb_column vc_column_container vc_col-sm-1/5">
+                    <div class="vc_column-inner">
+                      <div class="wpb_wrapper">
+                        <div class="wpb_text_column wpb_content_element ">
+                          <div class="wpb_wrapper">
+                            <h3><a href="https://goo.gl/maps/tCGa4g5bBEoFDKfe8" target="_blank">ENDEREÇO</a></h3>
+                            <p>Edifício Empire Center, Sala 104<br>
+                               Av. Constantino Nery, 2289<br>
+                               Chapada, 69050-001 <br>
+                               Manaus - AM<br>
+
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- ADDRESS End -->
+                  <!-- CONTACT Start -->
+                  <div class="wpb_column vc_column_container vc_col-sm-1/5">
+                    <div class="vc_column-inner">
+                      <div class="wpb_wrapper">
+                        <div class="wpb_text_column wpb_content_element ">
+                          <div class="wpb_wrapper">
+                            <h3>Contato</h3>
+                            <p>Telefone: <a href="tel:92986096313">(92) 98609-6313</a><br>
+                            Email: <a href="mailto:contato@rj-tecnologia.com">contato@rj-tecnologia.com</a> <br>
+
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- CONTACT End -->
+                  <!-- LOGO Start -->
+                  <div class="wpb_column vc_column_container vc_col-sm-1/5">
+                    <div class="vc_column-inner">
+                      <div class="wpb_wrapper">
+                        <div id="univ-footer-logo" class="wpb_single_image wpb_content_element vc_align_center">
+                          <figure class="wpb_wrapper vc_figure">
+                            <div class="vc_single_image-wrapper   vc_box_border_grey">
+                              <img width="500" height="472" src="assets/img/logo-rodape-02.png" class="vc_single_image-img attachment-full" alt="" loading="lazy" srcset="assets/img/logo-rodape-02.png 500w, assets/img/logo-rodape-02.png 300w" sizes="(max-width: 500px) 100vw, 500px" >
+                            </div>
+                          </figure>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- LOGO End -->
+                </div>
+              </div>
+            </div>
+          </section>
+        </div><!-- .wf-container -->
+      </div><!-- .wf-container-footer -->
+    </div><!-- .wf-wrap -->
+
+    <!-- !Bottom-bar -->
+    <div id="bottom-bar" class="logo-center" role="contentinfo">
+      <div class="wf-wrap">
+        <div class="wf-container-bottom">
+          <div class="wf-float-right">
+            <div class="bottom-text-block">
+              <p>Copyright RJ Tecnologia, Inc. - 2021 - Todos os direitos reservados</p>
+            </div>
+          </div>
+        </div><!-- .wf-container-bottom -->
+      </div><!-- .wf-wrap -->
+    </div><!-- #bottom-bar -->
+    
+  </footer>
+
+
+
+<script src="assets/js/menu.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/effect.js"></script>
+  <script src="assets/js/particles.min.js"></script>
+  <script src="assets/js/brain.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/app-02.js"></script>
+  <script>
+    //Get the button
+    let mybutton = document.getElementById("btn-back-to-top");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+      scrollFunction();
+    };
+
+    function scrollFunction() {
+      if (
+        document.body.scrollTop > 20 ||
+        document.documentElement.scrollTop > 20
+      ) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    // When the user clicks on the button, scroll to the top of the document
+    mybutton.addEventListener("click", backToTop);
+
+    function backToTop() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+</body>
+
+</html>
