@@ -1,0 +1,133 @@
+.home-hero-section {
+  background: #000000;
+  height: 100vh;
+  position: relative;
+  padding: 0 35px;
+}
+@media(max-width:991px) {
+  .home-hero-section {
+    padding: 0;
+  }
+}
+
+.home-hero-section .container-fluid {
+  position: relative;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.home-hero-section.subpage-hero-section {
+  height: 300px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 991px) {
+  .home-hero-section.subpage-hero-section.connect-hero {
+    height: 600px;
+    padding: 0;
+  }
+}
+
+.home-hero-section.subpage-hero-section.contact-hero {
+  height: 90px;
+}
+
+@media screen and (max-width: 991px) {
+  .connect-title-section {
+    overflow: visible !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .connect-title-section .home-hero-h {
+    text-align: center;
+    position: relative;
+    top: -350px;
+    z-index: 3;
+  }
+}
+
+.particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.second-particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  opacity: 0.4;
+}
+
+.second-screens-container {
+  position: relative;
+}
+
+@media screen and (max-width: 991px) {
+  .second-screens-container {
+    height: 40vw;
+  }
+}
+
+.second-screens-container img {
+  position: absolute;
+  top: 0px;
+  width: 68%;
+}
+
+@media screen and (max-width: 1440px) {
+  .second-screens-container img {
+    width: 100%;
+  }
+
+  .second-screens-container img:nth-of-type(2) {
+    width: 500px;
+    top: auto !important;
+    bottom: 0;
+  }
+
+  .second-screens-container img:nth-of-type(3) {
+    width: 500px;
+    top: auto !important;
+    bottom: 100px;
+    z-index: 3 !important;
+    left: 50px !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .second-screens-container img {
+    bottom: 0 !important;
+    top: auto !important;
+  }
+}
+
+.second-screens-container img:first-of-type {
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 2;
+}
+
+.second-screens-container img:nth-of-type(2) {
+  right: 0;
+  top: 150px;
+  z-index: 1;
+}
+
+.second-screens-container img:nth-of-type(3) {
+  left: 0;
+  top: 100px;
+  z-index: 0;
+}
+
+.particles-opacity {
+  opacity: 0.5;
+}
